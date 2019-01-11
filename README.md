@@ -1,5 +1,5 @@
 # PVE_Tweaks
-Multiple tweaks for Proxmox
+Multiple tweaks(hacks) for Proxmox
 
 ## CPU Pinning
 pve_cpu_pinning.sh

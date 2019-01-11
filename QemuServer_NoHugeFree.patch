@@ -1,0 +1,10 @@
+--- /usr/share/perl5/PVE/QemuServer.pm	2018-11-29 12:57:49.000000000 +0100
++++ QemuServer.pm	2019-01-10 10:14:02.450587308 +0100
+@@ -5223,7 +5223,6 @@
+ 		    die $err;
+ 		}
+ 
+-		PVE::QemuServer::Memory::hugepages_pre_deallocate($hugepages_topology);
+ 	    };
+ 	    eval { PVE::QemuServer::Memory::hugepages_update_locked($code); };
+ 

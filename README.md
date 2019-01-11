@@ -13,7 +13,7 @@ pve_schd_fifo.sh
 pve_schd_fifo.sh VMID
 pve_schd_fifo.sh 100
 ```
-## Patch QemuServer to do not to free hugepages
+## Patch QemuServer to not free hugepages
 QemuServer_NoHugeFree.patch
 ```bash
 patch /usr/share/perl5/PVE/QemuServer.pm ./QemuServer_NoHugeFree.patch
